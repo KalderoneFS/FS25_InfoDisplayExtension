@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <l10n>
-	<translationContributors>Achimobil</translationContributors>
+	<translationContributors>mowenxuan</translationContributors>
 	<texts>
 		<text name="infoDisplayExtension_TOTAL_CAPACITY_TITLE" text="容量信息"/>
 		<text name="infoDisplayExtension_USED_CAPACITY" text="已用容量"/>
