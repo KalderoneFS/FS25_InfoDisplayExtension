@@ -3,6 +3,7 @@
     <author>Achimobil</author>
     <version>1.0.1.7</version>
     <title>
+        <cs>更多信息扩展</cs>
         <de>Info Display Erweiterung</de>
         <en>Info Display Extension</en>
         <pl>Rozszerzone Informacje</pl>
@@ -63,30 +64,6 @@ Changelog
 - Added translation corrections
 - Turkish translations added
 ]]></en>
-        <cs><![CDATA[一个扩展显示的小模组。
-
-扩展了 Info Hud 的显示内容
-- 筒仓
-- 产品
-- 动物棚
-- 粪堆
-- 树木
-- 车辆和附件
-- 尽可能添加数字单位，因为并非所有内容都以升为单位。
-
-禁止上传到 ModHub 以外的网站，因此属于非法行为，只能使用原始下载链接进行链接。 禁止使用替代链接！
-不允许修改和重新上传全部或部分内容！
-
-欢迎在 <a href="https://github.com/Achimobil/FS25_InfoDisplayExtension">GitHub</a>上提出错误和建议
-
-变更日志
-1.0.1.0
-- 更正了自种树木计算中的 Lua 错误
-- 更正了树木的年龄计算
-- 添加了翻译更正
-- 添加了土耳其语翻译
-- 添加了中文翻译
-]]></cs>
     </description>
 
     <iconFilename>icon_InfoDisplayExtension.dds</iconFilename>
