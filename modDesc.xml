@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="94">
     <author>Achimobil</author>
-    <version>1.0.1.8</version>
+    <version>1.0.1.9</version>
     <title>
-        <cs>更多信息扩展</cs>
         <de>Info Display Erweiterung</de>
         <en>Info Display Extension</en>
         <pl>Rozszerzone Informacje</pl>
         <ru>Дополнительная Информация</ru>
+        <cs>信息显示扩展</cs>
     </title>
     <description>
         <de><![CDATA[Ein kleiner Mod zur Erweiterung der Anzeigen.
@@ -35,6 +35,7 @@ Changelog
 1.0.1.6 - Fahrzeuge zeigen jetzt Shop Kategorie an
 1.0.1.7 - Fahrzeuge zeigen jetzt aktuelles Gewicht an
 1.0.1.8 - Chinesische übersetzungen von mowenxuan
+1.0.1.9 - Chinesische übersetzungen angepasst
 
 1.0.1.0
 - Lua Fehler in Berechnungen für selbstgepflanzte Bäume korrigiert
