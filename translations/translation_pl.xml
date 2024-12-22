@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <l10n>
-    <translationContributors>[_Mario_]</translationContributors>
-    <version>1.7.0.0</version>
+    <translationContributors>[_Mario_], Ziuta</translationContributors>
+    <version>1.0.1.10</version>
     <texts>
         <text name="infoDisplayExtension_TOTAL_CAPACITY_TITLE" text="Rozszerzone informacje o pojemności"/>
         <text name="infoDisplayExtension_USED_CAPACITY" text="Pojemność w użyciu"/>
@@ -17,9 +17,9 @@
         <text name="infohud_missing" text="brakujący"/>
         <text name="infohud_remaingTime" text="Pozostały czas"/>
         <text name="infoDisplayExtension_currentPower" text="Moc"/>
-        <text name="infohud_Input" text="Input"/>
-        <text name="infohud_both" text="Input and Output"/>
-        <text name="infohud_Output" text="Output"/>
+        <text name="infohud_Input" text="Wymagane"/>
+        <text name="infohud_both" text="Wymagane i uzyskane"/>
+        <text name="infohud_Output" text="Uzyskane"/>
         <!-- Animal Texts -->
         <text name="infoDisplayExtension_animals_health" text="Zdrowie"/>
         <text name="infoDisplayExtension_animals_healthRange" text="Zdrowie"/>
@@ -36,7 +36,7 @@
         <text name="infoDisplayExtension_animals_ridingRange" text="Jazda"/>
         <text name="infoDisplayExtension_animals_fitness" text="Kondycja"/>
         <text name="infoDisplayExtension_animals_fitnessRange" text="Kondycja"/>
-        <text name="infoDisplayExtension_grazingFoodBuffer" text="Grazing Buffer"/>
-        <text name="infoDisplayExtension_category" text="Category"/>
+        <text name="infoDisplayExtension_grazingFoodBuffer" text="Pastwisko"/>
+        <text name="infoDisplayExtension_category" text="Kategoria"/>
     </texts>
 </l10n>
