@@ -1049,6 +1049,21 @@ end
 PlayerHUDUpdater.fieldAddField = Utils.appendedFunction(PlayerHUDUpdater.fieldAddField, InfoDisplayExtension.PlayerHUDUpdaterFieldAddField)
 
 
+function InfoDisplayExtension:loadMap(name)
+    if not InfoDisplayExtension:getDetiServer() then
+        Mission00.onStartMission = Utils.appendedFunction(Mission00.onStartMission, InfoDisplayExtension.onStartMission);
+    end;
+end
 
+--- Anzahl der Elemente im F1 menü erhöhen
+function InfoDisplayExtension:onStartMission()
+    InputHelpDisplay.MAX_NUM_ELEMENTS = 12;
+end
+
+---Simple check if this is server and not client
+-- @return boolean isDediServer
+function InfoDisplayExtension:getDetiServer()
+    return g_server ~= nil and g_client ~= nil and g_dedicatedServer ~= nil;
+end;
 
 addModEventListener(InfoDisplayExtension)
