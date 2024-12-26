@@ -24,6 +24,7 @@ InfoDisplayExtension.metadata = {
 };
 InfoDisplayExtension.modDir = g_currentModDirectory;
 
+source(InfoDisplayExtension.modDir.."scripts/PlaceableConstructibleInfoDisplayExtension.lua");
 source(InfoDisplayExtension.modDir.."scripts/PlaceableFactoryInfoDisplayExtension.lua");
 
 --- Print the given Table to the log
@@ -51,7 +52,7 @@ end
 ---format a volume
 -- @param float liters amount to format
 -- @param integer precision how many decimals
--- @param string unit which unit should be used
+-- @param string unit which unit should be used, default 2
 -- @return string the formated value
 function InfoDisplayExtension:formatVolume(liters, precision, unit)
     unit = unit ~= "" and (unit == false and "" or unit) or nil
