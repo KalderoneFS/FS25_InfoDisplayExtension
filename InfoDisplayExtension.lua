@@ -24,6 +24,8 @@ InfoDisplayExtension.metadata = {
 };
 InfoDisplayExtension.modDir = g_currentModDirectory;
 
+source(InfoDisplayExtension.modDir.."scripts/PlaceableFactoryInfoDisplayExtension.lua");
+
 --- Print the given Table to the log
 -- @param string text parameter Text before the table
 -- @param table myTable The table to print
@@ -57,7 +59,13 @@ function InfoDisplayExtension:formatVolume(liters, precision, unit)
     return g_i18n:formatVolume(liters, precision, unit)
 end
 
-function InfoDisplayExtension:formatCapacity(liters, capacity, precision, unit, fillTypeName)
+---format a volume with capacity
+-- @param float liters amount to format
+-- @param float capacity capacity to format
+-- @param integer precision how many decimals
+-- @param string unit which unit should be used
+-- @return string the formated value
+function InfoDisplayExtension:formatCapacity(liters, capacity, precision, unit)
     return self:formatVolume(liters, precision, false) .. " / " .. self:formatVolume(capacity, precision, unit);
 end
 
@@ -1038,6 +1046,7 @@ function InfoDisplayExtension.PlayerHUDUpdaterFieldAddField(self, fieldInfo, box
 end
 
 PlayerHUDUpdater.fieldAddField = Utils.appendedFunction(PlayerHUDUpdater.fieldAddField, InfoDisplayExtension.PlayerHUDUpdaterFieldAddField)
+
 
 
 
