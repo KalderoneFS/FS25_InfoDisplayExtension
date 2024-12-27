@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="94">
     <author>Achimobil</author>
-    <version>1.0.1.15</version>
+    <version>1.0.1.16</version>
     <title>
         <de>Info Display Erweiterung</de>
         <en>Info Display Extension</en>
@@ -42,6 +42,7 @@ Changelog
 1.0.1.13 - StateMachine Anzeigen erweitert
 1.0.1.14 - Erhöhung der im F1 Menü angezeigten Standard Einträge von 6 auf 12
 1.0.1.15 - Misthaufen nicht verbunden nach Spiel laden behoben
+1.0.1.16 - Mehr Elemente im F1 Menü abhängig von der UI scale gemacht
 
 1.0.1.0
 - Lua Fehler in Berechnungen für selbstgepflanzte Bäume korrigiert

@@ -1056,7 +1056,41 @@ end
 --- Anzahl der Elemente im F1 menü erhöhen
 function InfoDisplayExtension:onStartMission()
     if not InfoDisplayExtension:getDetiServer() then
-        InputHelpDisplay.MAX_NUM_ELEMENTS = 12;
+        local extendInputHUDcount = 1;
+        local extendInputHUDcountHigh = 1;
+
+        if g_gameSettings.uiScale < 1.26 and g_gameSettings.uiScale > 1.15 then
+            extendInputHUDcount = 3;
+            extendInputHUDcountHigh = 1;
+        elseif g_gameSettings.uiScale <= 1.15 and g_gameSettings.uiScale > 1.05 then
+            extendInputHUDcount = 5;
+            extendInputHUDcountHigh = 2;
+        elseif g_gameSettings.uiScale <= 1.05 and g_gameSettings.uiScale > 0.95 then
+            extendInputHUDcount = 6;
+            extendInputHUDcountHigh = 3;
+        elseif g_gameSettings.uiScale <= 0.95 and g_gameSettings.uiScale > 0.90 then
+            extendInputHUDcount = 7;
+            extendInputHUDcountHigh = 3;
+        elseif g_gameSettings.uiScale <= 0.90 and g_gameSettings.uiScale > 0.85 then
+            extendInputHUDcount = 8;
+            extendInputHUDcountHigh = 4;
+        elseif g_gameSettings.uiScale <= 0.85 and g_gameSettings.uiScale > 0.75 then
+            extendInputHUDcount = 9;
+            extendInputHUDcountHigh = 4;
+        elseif g_gameSettings.uiScale <= 0.75 and g_gameSettings.uiScale > 0.65 then
+            extendInputHUDcount = 10;
+            extendInputHUDcountHigh = 5;
+        elseif g_gameSettings.uiScale <= 0.65 and g_gameSettings.uiScale > 0.55 then
+            extendInputHUDcount = 10;
+            extendInputHUDcountHigh = 5;
+        elseif g_gameSettings.uiScale <= 0.55 then
+            extendInputHUDcount = 10;
+            extendInputHUDcountHigh = 5;
+        end
+
+
+        InputHelpDisplay.MAX_NUM_ELEMENTS = InputHelpDisplay.MAX_NUM_ELEMENTS + extendInputHUDcount;
+        InputHelpDisplay.MAX_NUM_ELEMENTS_HIGH_PRIORITY = InputHelpDisplay.MAX_NUM_ELEMENTS_HIGH_PRIORITY + extendInputHUDcountHigh;
     end
 
     if g_server ~= nil then
