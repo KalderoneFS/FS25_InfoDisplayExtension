@@ -43,6 +43,7 @@ Changelog
 1.0.1.14 - Erhöhung der im F1 Menü angezeigten Standard Einträge von 6 auf 12
 1.0.1.15 - Misthaufen nicht verbunden nach Spiel laden behoben
 1.0.1.16 - Mehr Elemente im F1 Menü abhängig von der UI scale gemacht
+1.0.1.17 - Misthaufen fix mür MP anzeige
 
 1.0.1.0
 - Lua Fehler in Berechnungen für selbstgepflanzte Bäume korrigiert

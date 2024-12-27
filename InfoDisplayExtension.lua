@@ -1093,9 +1093,7 @@ function InfoDisplayExtension:onStartMission()
         InputHelpDisplay.MAX_NUM_ELEMENTS_HIGH_PRIORITY = InputHelpDisplay.MAX_NUM_ELEMENTS_HIGH_PRIORITY + extendInputHUDcountHigh;
     end
 
-    if g_server ~= nil then
-        InfoDisplayExtension:ReconnectManureHeaps();
-    end;
+    InfoDisplayExtension:ReconnectManureHeaps();
 end
 
 ---Fix für giants fehler im LS25
