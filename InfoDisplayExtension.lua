@@ -26,6 +26,7 @@ InfoDisplayExtension.modDir = g_currentModDirectory;
 
 source(InfoDisplayExtension.modDir.."scripts/PlaceableConstructibleInfoDisplayExtension.lua");
 source(InfoDisplayExtension.modDir.."scripts/PlaceableFactoryInfoDisplayExtension.lua");
+source(InfoDisplayExtension.modDir.."scripts/HarvestMissionExtension.lua");
 
 --- Print the given Table to the log
 -- @param string text parameter Text before the table

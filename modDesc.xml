@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="94">
     <author>Achimobil</author>
-    <version>1.0.1.17</version>
+    <version>1.0.1.18</version>
     <title>
         <de>Info Display Erweiterung</de>
         <en>Info Display Extension</en>
@@ -44,6 +44,8 @@ Changelog
 1.0.1.15 - Misthaufen nicht verbunden nach Spiel laden behoben
 1.0.1.16 - Mehr Elemente im F1 Menü abhängig von der UI scale gemacht
 1.0.1.17 - Misthaufen fix mür MP anzeige
+
+1.0.1.18 - Fix für Missionen mit Krautschlägern
 
 1.0.1.0
 - Lua Fehler in Berechnungen für selbstgepflanzte Bäume korrigiert
