@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <l10n>
-    <translationContributors>Rudolfet</translationContributors>
+    <translationContributors>Roby1164 Rudolfet</translationContributors>
     <texts>
         <text name="infoDisplayExtension_TOTAL_CAPACITY_TITLE" text="Informazioni sulla Capacità"/>
         <text name="infoDisplayExtension_USED_CAPACITY" text="Capacità Usata"/>
@@ -8,7 +8,7 @@
         <text name="infoDisplayExtension_MORE_ITEMS" text="altro"/>
         <text name="infoDisplayExtension_MANURE_HEAP_CONNECTED" text="Collegato a"/>
         <text name="Revamp_Store" text="Negozio"/>
-        <text name="Revamp_Spawn" text="Spawn"/>
+        <text name="Revamp_Spawn" text="Generare"/>
         <text name="infohud_diameter" text="Diametro"/>
         <text name="infohud_growthState" text="Stadio di crescita"/>
         <text name="infohud_ageInHours" text="Età"/>
@@ -16,9 +16,9 @@
         <text name="infohud_missing" text="mancanti"/>
         <text name="infohud_remaingTime" text="Tempo Rimanente"/>
         <text name="infoDisplayExtension_currentPower" text="Potenza"/>
-        <text name="infohud_Input" text="Input"/>
-        <text name="infohud_both" text="Input e Output"/>
-        <text name="infohud_Output" text="Output"/>
+        <text name="infohud_Input" text="Ingresso"/>
+        <text name="infohud_both" text="Ingresso e uscita"/>
+        <text name="infohud_Output" text="uscita"/>
         <!-- Animal Texts -->
         <text name="infoDisplayExtension_animals_health" text="Salute"/>
         <text name="infoDisplayExtension_animals_healthRange" text="Salute"/>
@@ -33,9 +33,9 @@
         <text name="infoDisplayExtension_animals_dirtRange" text="Pulizia"/>
         <text name="infoDisplayExtension_animals_riding" text="Equitazione"/>
         <text name="infoDisplayExtension_animals_ridingRange" text="Equitazione"/>
-        <text name="infoDisplayExtension_animals_fitness" text="Fitness"/>
-        <text name="infoDisplayExtension_animals_fitnessRange" text="Fitness"/>
+        <text name="infoDisplayExtension_animals_fitness" text="Forma fisica"/>
+        <text name="infoDisplayExtension_animals_fitnessRange" text="Forma fisica"/>
         <text name="infoDisplayExtension_grazingFoodBuffer" text="Buffer di pascolo"/>
-        <text name="infoDisplayExtension_category" text="Category"/>
+        <text name="infoDisplayExtension_category" text="Categoria"/>
     </texts>
 </l10n>
